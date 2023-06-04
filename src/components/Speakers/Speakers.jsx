@@ -5,7 +5,7 @@ const Speakers = () => {
   return (
     <div id='speakers' className="bg-red text-white py-5 ">
       <h1 className="text-3xl text-center font-semibold p-3">Speakers</h1>
-      <div className="flex flex-col md:flex-row justify-evenly">
+      <div className="flex flex-col md:flex-row justify-evenly flex-wrap">
         {speakersList.map(({name, designation, img, url}) => <SpeakerCard {...{name, designation, img, url}} />)}
       </div>
     </div>
@@ -18,7 +18,7 @@ const SpeakerCard=({name,designation,img, url})=>{
         <div className=' outline outline-white outline-8 rounded-full'>
           <img
             src={img}
-            className=" rounded-full w-[200px] h-[200px] overflow-hidden "
+            className=" rounded-full w-[200px] h-[200px] overflow-hidden object-cover"
             alt={`${name}'s picture`}
           />
         </div>
