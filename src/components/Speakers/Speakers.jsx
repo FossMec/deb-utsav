@@ -6,15 +6,15 @@ const Speakers = () => {
     <div id='speakers' className="bg-red text-white py-5 ">
       <h1 className="text-3xl text-center font-semibold p-3">Speakers</h1>
       <div className="flex flex-col md:flex-row justify-evenly">
-        {speakersList.map(({name, designation, img}) => <SpeakerCard {...{name, designation, img}} />)}
+        {speakersList.map(({name, designation, img, url}) => <SpeakerCard {...{name, designation, img, url}} />)}
       </div>
     </div>
   );
 }
 
-const SpeakerCard=({name,designation,img})=>{
+const SpeakerCard=({name,designation,img, url})=>{
     return (
-      <div className="mt-6 w-fit mx-auto">
+      <a href={url} className="mt-6 w-fit mx-auto">
         <div className=' outline outline-white outline-8 rounded-full'>
           <img
             src={img}
@@ -30,7 +30,7 @@ const SpeakerCard=({name,designation,img})=>{
             {designation}
           </p>
         </div>
-      </div>
+      </a>
     );
 }
 
