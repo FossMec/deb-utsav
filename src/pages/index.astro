@@ -9,6 +9,7 @@ import Speakers from '../components/Speakers/Speakers';
 import ContactUs from '../components/ContactUs/ContactUs';
 import About from '../components/About/About';
 import CountdownTimer from '../components/Countdown/Countdown';
+import EventDetails from "../components/EventDetails";
 
 ---
 <style is:global>
@@ -64,6 +65,7 @@ import CountdownTimer from '../components/Countdown/Countdown';
 	<main>
 		<Hero/>
 		<CountdownTimer targetDate={new Date('June 17, 2023 09:30:00').getTime()} client:only />
+		<EventDetails/>
 		<About/>
 		<Speakers/>
 		<Sponsors/>
