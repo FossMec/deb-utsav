@@ -14,7 +14,7 @@ export const speakersList = [
   {
     name: "Sahil Dhiman",
     designation: "Debian Developer",
-    img: "https://seccdn.libravatar.org/avatar/fc0d3b6f6314f9f146ae50f07385f6a0?d=mm&s=96",
+    img: "https://cloud.disroot.org/apps/files_sharing/publicpreview/fFmgrDfHzWNBN8R?file=/&fileId=256716670&x=3360&y=2100&a=true",
     url: "https://blog.sahilister.in/"
   },
   {
