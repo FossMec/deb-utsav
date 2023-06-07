@@ -2,7 +2,7 @@ export const speakersList = [
   {
     name: "Andrew Bastin",
     designation: "CTO, Hoppscotch",
-    img: "https://avatars.githubusercontent.com/u/9131943?v=4",
+    img: "https://cloud.disroot.org/apps/files_sharing/publicpreview/tkPPNJbggKnygor?file=/&fileId=256717046&x=3360&y=2100&a=true",
     url: "https://andrewbast.in/"
   },
   {
