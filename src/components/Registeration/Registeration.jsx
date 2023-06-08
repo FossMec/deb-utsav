@@ -150,7 +150,7 @@ const RegistrationForm = () => {
         </div>
         <div className="mb-4">
           <label className="block text-red font-bold mb-2" htmlFor="college">
-            Have you contributed to any open source project?
+            Have you contributed to any FOSS project?
           </label>
           <input
             autoComplete="new-password"
